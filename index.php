@@ -21,5 +21,14 @@ error_reporting(E_ALL);
 </body>
 </html>
 <?php
-echo "<h1>PHP Array Practice."
+echo "<h1>PHP Array Practice.";
+
+$number=array(7,9,8,9,8,8,6);
+
+function printArr($number){
+    foreach ($number as  $num){
+        echo "$num <br>";
+    }
+}
+printArr($number);
 ?>
